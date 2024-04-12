@@ -10,7 +10,7 @@ interface ISiteMetadataResult {
 }
 
 const data: ISiteMetadataResult = {
-  siteTitle: '叔桐宇的运动',
+  siteTitle: '我的运动',
   siteUrl: 'https://shurun.github.io',
   logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
   description: 'Personal site and blog',
@@ -21,7 +21,7 @@ const data: ISiteMetadataResult = {
     },
     {
       name: 'About',
-      url: 'https://github.com/shugoal/running_page/blob/main/README-CN.md',
+      url: 'https://github.com/shugoal/shurun/blob/main/README-CN.md',
     },
   ],
 };
