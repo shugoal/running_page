@@ -67,19 +67,7 @@ const AFTERNOON_RUN_TITLE = IS_CHINESE ? '午后跑步' : 'Afternoon Run';
 const EVENING_RUN_TITLE = IS_CHINESE ? '傍晚跑步' : 'Evening Run';
 const NIGHT_RUN_TITLE = IS_CHINESE ? '夜晚跑步' : 'Night Run';
 
-const TRAIL_RUN_TITLE = IS_CHINESE ? '越野跑' : 'Trail Run';
-const SWIM_TITLE = IS_CHINESE ? '游泳' : 'Swim';
-
 const RIDE_TITLE = IS_CHINESE ? '骑行' : 'Ride';
-const INDOOR_RIDE_TITLE = IS_CHINESE ? '室内骑行' : 'Indoor Ride';
-const VIRTUAL_RIDE_TITLE = IS_CHINESE ? '虚拟骑行' : 'Virtual Ride';
-const HIKE_TITLE = IS_CHINESE ? '徒步' : 'Hike';
-const ROWING_TITLE = IS_CHINESE ? '划船' : 'Rowing';
-const KAYAKING_TITLE = IS_CHINESE ? '皮划艇' : 'Kayaking';
-const SNOWBOARD_TITLE = IS_CHINESE ? '单板滑雪' : 'Snowboard';
-const SKI_TITLE = IS_CHINESE ? '双板滑雪' : 'Ski';
-const ROAD_TRIP_TITLE = IS_CHINESE ? '自驾' : 'RoadTrip';
-const FLIGHT_TITLE = IS_CHINESE ? '飞行' : 'Flight';
 
 const RUN_TITLES = {
   FULL_MARATHON_RUN_TITLE,
@@ -144,7 +132,6 @@ export const SWIM_COLOR = gold;
 export const ROWING_COLOR = cyan;
 export const ROAD_TRIP_COLOR = purple;
 export const FLIGHT_COLOR = dark_vanilla;
-
 export const COUNTRY_FILL_COLOR = dark_vanilla;
 export const KAYAKING_COLOR = red;
 export const SNOWBOARD_COLOR = dark_vanilla;
