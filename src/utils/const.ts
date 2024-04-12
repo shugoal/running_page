@@ -144,7 +144,7 @@ export const SWIM_COLOR = gold;
 export const ROWING_COLOR = cyan;
 export const ROAD_TRIP_COLOR = purple;
 export const FLIGHT_COLOR = dark_vanilla;
-export const PROVINCE_FILL_COLOR = '#47b8e0';
+
 export const COUNTRY_FILL_COLOR = dark_vanilla;
 export const KAYAKING_COLOR = red;
 export const SNOWBOARD_COLOR = dark_vanilla;
