@@ -12,7 +12,7 @@ interface ISiteMetadataResult {
 const data: ISiteMetadataResult = {
   siteTitle: '我的运动',
   siteUrl: 'https://shurun.github.io',
-  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
+  logo: 'https://img2.imgtp.com/2024/04/12/z9Yr3p57.jpg',
   description: 'Personal site and blog',
   navLinks: [
     {
