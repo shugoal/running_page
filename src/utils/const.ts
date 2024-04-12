@@ -48,7 +48,7 @@ const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength: number, year: string): string => {
   const yearStr = year === 'Total' ? '所有' : ` ${year} `;
-  return `户外运动 ${yearLength} 年了，地图展示的是${yearStr}的轨迹`;
+  return `陆续运动 ${yearLength} 年了，地图展示的是${yearStr}的轨迹`;
 };
 const ENGLISH_INFO_MESSAGE = (yearLength: number, year: string): string =>
   `Running Journey with ${yearLength} Years, the table shows year ${year} data`;
@@ -67,25 +67,14 @@ const AFTERNOON_RUN_TITLE = IS_CHINESE ? '午后跑步' : 'Afternoon Run';
 const EVENING_RUN_TITLE = IS_CHINESE ? '傍晚跑步' : 'Evening Run';
 const NIGHT_RUN_TITLE = IS_CHINESE ? '夜晚跑步' : 'Night Run';
 
-const RIDE_TITLE = IS_CHINESE ? '骑行' : 'Ride';
-
 const RUN_TITLES = {
   FULL_MARATHON_RUN_TITLE,
   HALF_MARATHON_RUN_TITLE,
-  RUN_TITLE,
-  TRAIL_RUN_TITLE,
-
-  RIDE_TITLE,
-  INDOOR_RIDE_TITLE,
-  VIRTUAL_RIDE_TITLE,
-  HIKE_TITLE,
-  ROWING_TITLE,
-  KAYAKING_TITLE,
-  SWIM_TITLE,
-  ROAD_TRIP_TITLE,
-  FLIGHT_TITLE,
-  SNOWBOARD_TITLE,
-  SKI_TITLE,
+  MORNING_RUN_TITLE,
+  MIDDAY_RUN_TITLE,
+  AFTERNOON_RUN_TITLE,
+  EVENING_RUN_TITLE,
+  NIGHT_RUN_TITLE,
 };
 
 export {
@@ -109,30 +98,9 @@ export {
 };
 
 const nike = 'rgb(224,237,94)'; // if you want change the main color change here src/styles/variables.scss
-const yellow = 'rgb(224,237,94)';
-const green = 'rgb(0,237,94)';
-const pink = 'rgb(237,85,219)';
-const cyan = 'rgb(112,243,255)';
-const IKB = 'rgb(0,47,167)';
-const dark_vanilla = 'rgb(228,212,220)';
-const gold = 'rgb(242,190,69)';
-const purple = 'rgb(154,118,252)';
-const veryPeri = 'rgb(105,106,173)';//长春花蓝
-const red = 'rgb(255,0,0)';//大红色
+
 // If your map has an offset please change this line
 // issues #92 and #198
 export const NEED_FIX_MAP = false;
 export const MAIN_COLOR = nike;
 export const PROVINCE_FILL_COLOR = '#47b8e0';
-export const RUN_COLOR = yellow;
-export const RIDE_COLOR = green;
-export const VIRTUAL_RIDE_COLOR = veryPeri;
-export const HIKE_COLOR = pink;
-export const SWIM_COLOR = gold;
-export const ROWING_COLOR = cyan;
-export const ROAD_TRIP_COLOR = purple;
-export const FLIGHT_COLOR = dark_vanilla;
-export const COUNTRY_FILL_COLOR = dark_vanilla;
-export const KAYAKING_COLOR = red;
-export const SNOWBOARD_COLOR = dark_vanilla;
-export const TRAIL_RUN_COLOR = IKB;
