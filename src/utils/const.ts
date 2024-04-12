@@ -48,7 +48,7 @@ const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength: number, year: string): string => {
   const yearStr = year === 'Total' ? '所有' : ` ${year} `;
-  return `户外运动 ${yearLength} 年了，`+ ( year === 'Total' ? '' : `，地图展示的是 ${year} 年的轨迹`);
+  return `户外运动 ${yearLength} 年了，地图展示的是${yearStr}的轨迹`;
 };
 const ENGLISH_INFO_MESSAGE = (yearLength: number, year: string): string =>
   `Running Journey with ${yearLength} Years, the table shows year ${year} data`;
